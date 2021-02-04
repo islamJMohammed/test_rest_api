@@ -7,7 +7,6 @@ base_url="https://reqres.in"
 sub_url="/api/users?page=2"
 url=base_url+sub_url
 
-
 # testing
 def test_get_users_list():
     excepted_status_code=200
